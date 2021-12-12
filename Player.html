@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>Music Player</title>
+</head>
+<body>
+    <a id = "play"></a>
+
+    <header>
+        <nav class="menu-main">
+            <a href="index.html#main"><img src="logo-white.png" width="60px"></a>
+            <ul>
+                <li><a href="History.html#his" class="a">История музыки</a></li> 
+                <li><a href="Player.html#play" class="a">Музыка</a> </li>
+                <li><a href="Musicians.html#mus" class="a">Музыканты</a></li>
+                <li><a href="Programs.html#prog" class="a">Программы для музыки</a></li>
+                <li><a href="News.html#news" class="a">Новости музыки</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="oformlenie">
+        <div class="container">
+
+            <h1 class="heading"> Музыка </h1>
+        
+            <div class="box-container">
+        
+                <div class="box" data-src="Группа Скриптонит - Скучаю.mp3">
+                    <div class="image">
+                        <div class="play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <img src="skychay.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Gruppa Scryptonite - Скучаю</h3>
+                    </div>
+                </div>
+        
+                <div class="box" data-src="The Weeknd - False Alarm.mp3">
+                    <div class="image">
+                        <div class="play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <img src="False_Alarm.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>The Weeknd - False Alarm</h3>
+                    </div>
+                </div>
+        
+                <div class="box" data-src="T-Fest - Я тоже.mp3">
+                    <div class="image">
+                        <div class="play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <img src="T-Fest - Я тоже.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>T-Fest - Я тоже</h3>
+                    </div>
+                </div>
+        
+                <div class="box" data-src="Сёстры - Счастье.mp3">
+                    <div class="image">
+                        <div class="play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <img src="Сёстры -Счастье.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Сёстры - Счастье</h3>
+                    </div>
+                </div>
+        
+                <div class="box" data-src="Скриптонит - Одно и то же.mp3">
+                    <div class="image">
+                        <div class="play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <img src="Свистки и бумажки.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Скриптонит - Одно и то же</h3>
+                    </div>
+                </div>
+        
+                <div class="box" data-src="M'Dee, ZOLOTO - Белый Флаг.mp3">
+                    <div class="image">
+                        <div class="play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <img src="M'dee - Белый Флаг.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>M'dee - Белый флаг (feat. Zoloto)</h3>
+                    </div>
+                </div>
+        
+            </div>
+        
+        </div>
+        
+        <div class="music-player">
+            <div id="close-player" class="fas fa-angle-up"></div>
+            <h3 class="music-title">Выберите трек</h3>
+            <audio src="" controls></audio>
+        </div>
+			
+        </ol>
+    </main>
+
+    <script src = "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src = "script.js"></script>
+    
+</body>
+</html>
